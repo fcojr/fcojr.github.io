@@ -20,7 +20,7 @@ h1{
 h2{
 	text-align: center;
 }
-nav{
+nav, .btn{
 	background-color: #343a40;
 }
 #botao{
@@ -34,4 +34,12 @@ nav{
 }
 p{
 	text-align: left;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #343a40;
+}
+.btn:focus{
+	background-color: #535a60;
+	color: #fff;
 }
