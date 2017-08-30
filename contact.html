@@ -1,10 +1,15 @@
   <!DOCTYPE html>
   <html>
     <head>
+      <!--Font awesome-->
+      <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+      <!--Favicon-->
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="img/favicon.ico" type="image/x-icon">
       <!--Metatag-->
       <meta charset="utf-8">
       <!--Title-->
-      <title>Portfolio</title>
+      <title>Contact</title>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Pacifico|Forum" rel="stylesheet">
@@ -38,8 +43,49 @@
   <main>
     <div class="container">
       <div class="texto">
-        <h1>Contact</h1>
-      </div>
+             <div class="connect">
+        	<h4>Connect with me</h4>
+        	<ul class="lista-contatos">
+         	 <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+         	 <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+         	 <li><i class="fa fa-instagram" aria-hidden="true"></i></i></li>
+         	 <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+		</ul>
+             </div>
+             <div class="call-me">
+	        <h4>Call me</h4>
+        	<ul class="lista-contatos">
+        	  <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+		  <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+		</ul>
+            </div>
+            <div class="send-msg">
+               <h4>Or send me a message</h4>
+                 <div class="row">
+	         <div class="col l3"> </div>
+                 <div class="col l6 s12 m12">
+   		 <form>
+                   <div class="input-field">
+                      <label for="name">Name</label>
+         	      <input id="name" type="text">
+                   </div>
+                   <div class="input-field">
+                      <label for="email">E-mail</label>
+         	      <input id="email" type="email" class="validate">
+                   </div>
+                   <div class="input-field">
+          		<label for="textarea">Message</label>
+          		<textarea id="textarea" class="materialize-textarea"></textarea>
+        	   </div>
+                   <button id="botao" class="btn" type="submit" name="send">Send
+                     <i class="material-icons right">send</i>
+                   </button>
+                </form>
+                </div>
+               <div class="col l3"></div>
+           </div>
+       </div>
+   </div>
   </main>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
