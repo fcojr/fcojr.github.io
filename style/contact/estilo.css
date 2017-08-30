@@ -10,15 +10,10 @@ body, html{
 	font-size: 27px;
 
 }
-h1{
+h4, .texto{
 	text-align: center; 
 	font-family: Forum;
-	text-transform: uppercase; 
-	letter-spacing: 10px;
-	font-size: 2.5rem;
-}
-h2{
-	text-align: center;
+        margin-top: 30px;
 }
 nav, .btn{
 	background-color: #343a40;
@@ -28,4 +23,38 @@ nav, .btn{
 }
 .side-nav{
 	width: 200px;
+}
+.lista-contatos li{
+	display: inline;
+	font-size: 2.5rem;
+	margin: 25px;
+	text-align: center;
+	width: 100%;
+}
+.lista-contatos{
+	margin-top: 35px;
+}
+.call-me, .send-msg{
+	margin-top: 80px;
+}
+/*COR DA LABEL*/
+.input-field label {
+     color: grey;
+}
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=email].valid {
+	border-bottom: 1px solid #9e9e9e;
+	box-shadow: none;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #343a40;
+}
+.btn:focus{
+	background-color: #535a60;
+	color: #fff;
 }
