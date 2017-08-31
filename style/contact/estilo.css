@@ -74,3 +74,6 @@ a{
 .send message{
 	margin-bottom: 50px;
 }
+nav li:hover{
+    background-color: #151515;
+}
