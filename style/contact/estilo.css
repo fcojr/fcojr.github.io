@@ -1,6 +1,6 @@
 body, html{
 	background-image: url("../../img/background.jpg");
-	width: 100%;height:100%;
+	width: 100%;
  }
  p{
 	text-align: center; font-size: 1em;
@@ -36,6 +36,7 @@ nav, .btn{
 }
 .call-me, .send-msg{
 	margin-top: 80px;
+	margin-bottom:  80px;
 }
 /*COR DA LABEL*/
 .input-field label {
