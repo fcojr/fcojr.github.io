@@ -43,3 +43,6 @@ p{
 	background-color: #535a60;
 	color: #fff;
 }
+nav li:hover{
+    background-color: #151515;
+}
