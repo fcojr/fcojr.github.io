@@ -30,3 +30,6 @@ nav, .btn{
 	background-repeat: no-repeat;
 	background-position: center;
 }
+nav li:hover{
+    background-color: #151515;
+}
