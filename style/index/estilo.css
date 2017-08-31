@@ -1,6 +1,6 @@
 body, html{
 	background-image: url("../../img/background.jpg");
-	width: 100%;height:100%;
+	width: 100%;
  }p{
 	text-align: center; font-size: 1em;
 }
@@ -10,4 +10,28 @@ body, html{
 	font-size: 27px;
 
 }
-h1{text-align: center; font-family: Forum;text-transform: uppercase; letter-spacing: 10px; font-size: 2.5rem;}h2{text-align: center;}nav{background-color: #343a40;}#botao{margin: 0;}.texto{padding-top: 20%;}.side-nav{width: 200px;}
+h1{
+	text-align: center;
+	font-family: Forum;
+	text-transform: uppercase;
+	letter-spacing: 10px; 
+	font-size: 2.5rem;
+}
+h2{
+	text-align: center;
+}
+nav{
+	background-color: #343a40;
+}
+#botao{
+	margin: 0;
+}
+.texto{
+	padding-top: 20%;
+}
+.side-nav{
+	width: 200px;
+}
+nav li:hover{
+    background-color: #151515;
+}
