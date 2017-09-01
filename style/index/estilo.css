@@ -1,6 +1,15 @@
 body, html{
-	background-image: url("../../img/background.jpg");
-	width: 100%;
+	background-image: url("../../img/background2.jpg");
+	width: 100%; background-size: cover;     display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
  }p{
 	text-align: center; font-size: 1em;
 }
@@ -15,23 +24,18 @@ h1{
 	font-family: Forum;
 	text-transform: uppercase;
 	letter-spacing: 10px; 
-	font-size: 2.5rem;
+	font-size: 2.5rem; font-weight: bold;
 }
 h2{
 	text-align: center;
 }
 nav{
-	background-color: #343a40;
+	background-color: transparent;
 }
 #botao{
 	margin: 0;
 }
-.texto{
-	padding-top: 20%;
-}
+
 .side-nav{
 	width: 200px;
-}
-nav li:hover{
-    background-color: #151515;
-}
+}.texto{color: #f1f1f1;}
