@@ -21,7 +21,9 @@ h2{
 	text-align: center;
 }
 nav, .btn{
-	background-color: #343a40;
+	background-image: url("../../img/background2.jpg");
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
 }
 #botao{
 	margin: 0;
@@ -42,7 +44,4 @@ p{
 .btn:focus{
 	background-color: #535a60;
 	color: #fff;
-}
-nav li:hover{
-    background-color: #151515;
 }

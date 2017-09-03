@@ -15,8 +15,13 @@ h4, .texto{
 	font-family: Forum;
         margin-top: 30px;
 }
-nav, .btn{
-	background-color: #343a40;
+nav{
+	background-image: url("../../img/background2.jpg");
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
+}
+.btn{
+	background-color: #151515;
 }
 #botao{
 	margin: 0;
@@ -73,7 +78,4 @@ a{
 }
 .send message{
 	margin-bottom: 50px;
-}
-nav li:hover{
-    background-color: #151515;
 }
