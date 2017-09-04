@@ -4,6 +4,7 @@ body, html{
 	background-color: rgba(0,0,0, 0.7);
 	background-blend-mode: overlay;
 	background-repeat: no-repeat;
+	height: 100%;
  }
 p{
 	text-align: center; font-size: 1em;
