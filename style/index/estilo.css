@@ -1,23 +1,18 @@
 body, html{
 	background-image: url("../../img/background2.jpg");
-	width: 100%; background-size: cover;     display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-color: rgba(0,0,0, 0.5);
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
- }p{
+	background-size: cover;
+	background-color: rgba(0,0,0, 0.7);
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+	height: 100%;
+ }
+p{
 	text-align: center; font-size: 1em;
 }
 
 #logo{
 	font-family: 'Pacifico', cursive;
 	font-size: 27px;
-
 }
 h1{
 	text-align: center;
@@ -38,4 +33,7 @@ nav{
 
 .side-nav{
 	width: 200px;
-}.texto{color: #f1f1f1;}
+}
+.texto{
+	color: #f1f1f1;
+}
