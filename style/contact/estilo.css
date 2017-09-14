@@ -79,3 +79,6 @@ a{
 .send message{
 	margin-bottom: 50px;
 }
+.fa:hover{
+	color: #504949;
+}
